@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Teratai | Prisma Wirajamaju</title>
+    <!-- External Fonts & Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+
+<!-- Navigation -->
+<nav>
+
+    <!-- Logo -->
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="Prisma Wiramaju Logo">
+        <span>PRISMA WIRAMAJU</span>
+    </a>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p>Eksklusif • Moden • Intim</p>
+            <H1>VILLA TERATAI</H1>
+            <h1>Cipta Memori Indah Bersama Kami</h1>
+            <a href="#package" class="btn">Lihat Pakej</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">Tentang Villa</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Ruang Acara Mesra & Aksesibiliti</h3>
+                <p>Direka dengan sentuhan moden dan intim, ruang kami bukan sahaja menawarkan suasana eksklusif, malah menitikberatkan keselesaan dan aksesibiliti untuk semua.</p>
+                <br>
+                <p>Sebagai ruang acara yang mesra bagi semua golongan usia, Villa kami dilengkapi dengan kemudahan <strong>lif serta laluan akses</strong> yang selesa. Ruang acara kami juga dilengkapi dengan <strong>kolam renang</strong> serta <strong>kawalan keselamatan 24 jam</strong>.</p>
+            <br>
+            <i class="fa fa-map-marker-alt"></i> <p><strong>Villa Teratai:</strong> Jalan Teratai, Kampung Sungai Tua Bahru, 68100 Batu Caves, Selangor.</p>
+            </div>
+            <div class="about-img">
+                <img src="images/rumah 1.jpeg" alt="Villa Teratai Interior">
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Section -->
+    <section id="package">
+        <h2 class="section-title">Pakej Eksklusif</h2>
+        <div class="package-grid">
+            <!-- Package A -->
+            <div class="package-card" onclick="openModal('pkgA')">
+                <img src="images/PAKEJ A.png" alt="Pakej A">
+                <div class="package-overlay">
+                    <h3>PAKEJ TERATAI - A</h3>
+                    <span>Klik Untuk Info</span>
+                </div>
+            </div>
+            <!-- Package B -->
+            <div class="package-card" onclick="openModal('pkgB')">
+                <img src="images/PAKEJ B.jpeg" alt="Pakej B">
+                <div class="package-overlay">
+                    <h3>PAKEJ TERATAI - B</h3>
+                    <span>Klik Untuk Info</span>
+                </div>
+            </div>
+            <!-- Package C -->
+            <div class="package-card" onclick="openModal('pkgC')">
+                <img src="images/PAKEJ C.jpeg" alt="Pakej C">
+                <div class="package-overlay">
+                    <h3>PAKEJ TERATAI - C</h3>
+                    <span>Klik Untuk Info</span>
+                </div>
+            </div>
+            <!-- Package D -->
+            <div class="package-card" onclick="openModal('pkgD')">
+                <img src="images/PAKEJ D.png" alt="Pakej D">
+                <div class="package-overlay">
+                    <h3>PAKEJ TERATAI - D</h3>
+                    <span>Klik Untuk Info</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Package Details -->
+    <div id="packageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Prisma Wirajamaju Sdn Bhd</h3>
+                <div class="info-item">
+                    <i class="fa fa-phone"></i>
+                    <p>01155529237</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-envelope"></i>
+                    <p>prwjsb.hq@prismawiramaju.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-building"></i>
+                    <p><strong>HQ:</strong> 1-2, Jalan GP 2A, Taman Gombak Permai, 68100 Batu Caves, Selangor D.E.</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <p><strong>Villa Teratai:</strong> Jalan Teratai, Kampung Sungai Tua Bahru, 68100 Batu Caves, Selangor.</p>
+                </div>
+            </div>
+            <div class="social-box">
+                <h3>Ikuti Media Sosial</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1DJqz6WuZZ/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@prismahomestays" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prisma Wirajamaju Sdn Bhd. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
