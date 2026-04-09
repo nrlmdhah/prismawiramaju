@@ -32,7 +32,8 @@ const packageDetails = {
             "Seluruh Ruang Tingkat Satu",
             "Satu Bilik Persiapan",
             "Seluruh Lot Parking",
-            "Kawalan Keselamatan"
+            "Kawalan Keselamatan",
+            "Lot Parking Khas Untuk Tetamu"
         ],
         price: "RM 2,000"
     },
@@ -47,7 +48,8 @@ const packageDetails = {
             "Akses Kolam Renang",
             "Empat Bilik Persiapan",
             "Seluruh Lot Parking",
-            "Kawalan Keselamatan"
+            "Kawalan Keselamatan",
+            "Lot Parking Khas Untuk Tetamu"
         ],
         price: "RM 3,500"
     },
@@ -62,7 +64,8 @@ const packageDetails = {
             "Akses Kolam Renang",
             "Tujuh Bilik Persiapan",
             "Seluruh Lot Parking",
-            "Kawalan Keselamatan"
+            "Kawalan Keselamatan",
+            "Lot Parking Khas Untuk Tetamu"
         ],
         price: "RM 5,000"
     },
@@ -77,7 +80,8 @@ const packageDetails = {
             "Akses Kolam Renang",
             "Tujuh Bilik Persiapan",
             "Seluruh Lot Parking",
-            "Kawalan Keselamatan"
+            "Kawalan Keselamatan",
+            "Lot Parking Khas Untuk Tetamu"
         ],
         price: "RM 6,500"
     }
